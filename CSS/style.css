@@ -6,7 +6,7 @@
 
 .bg-image{
   background: url("img/pizza9.jpg");
-  height: 800px;
+  height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,6 +14,7 @@
 }
 .logo{
 	color: white;
+	background-color:rgba(0,0,0,0.5);
 	padding-left: 20px;
 	position: fixed;
 	font-family: 'Fugaz One', cursive;
@@ -36,4 +37,17 @@
     background-color:rgba(0,0,0,0.7);
     padding-top: 300px;
     padding-bottom: 100px;
+}
+section{
+	padding-top: 50px;
+	text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Bad Script', cursive;
+	font-size: 20px;
+	margin: 30px;
+
+}
+section h1{
+	padding-bottom: 20px;
+
 }
