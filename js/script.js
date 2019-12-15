@@ -1,5 +1,20 @@
 
  $(document).ready(function() {
+     $("#Order").click(function () {
+$( "#pizza" ).toggle({
+        duration: 3000,
+
+    });
+$( "#Sizes" ).toggle({
+          duration: 3000,
+    });
+$( "#Crust" ).toggle({
+        duration: 3000,
+
+    });
+  });  
+
+
      $("#pizza").click(function () {
 $( ".men_ex" ).toggle({
         duration: 3000,
