@@ -60,7 +60,12 @@ section h1{
 	font-size: 30px;
 }
 .men_ex{
-    border-radius:20px;
+    border-radius:5px;
+    display: none;
+    text-align: center;
+    float: right;
+    width: 50%;
+   /* padding-left: 500px;*/
 }
 .men_ex ul {
     margin: 0; 
@@ -73,8 +78,7 @@ section h1{
 .men_ex ul li a {
     text-decoration: none;
     color: #fff; 
-    padding: 10.5px 11px;
-    background-color:rgb(101,0,255);
+    background-color: #370089;
     display:block;
     border-bottom:solid 1px #000;
 }
@@ -83,8 +87,89 @@ section h1{
     color: white;
 }
  
-.men_ex ul li a:hover, .men_ex ul li .current {
+.men_ex ul li a:hover, ul li .current {
     color: #000;
-    background-color: #432176;
-    font-weight: bolder;
+    background-color: #FBE9AC;
 }
+
+.col-md-4{
+	text-align: center;
+
+}
+.size{
+    border-radius:5px;
+    display: none;
+    text-align: center;
+    float: right;
+    width: 50%;
+}
+.size ul {
+    margin: 0; 
+    padding: 0;
+    width:185px;
+    list-style-type: none;
+    
+}
+
+.size ul li a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 10.5px 11px;
+    background-color: #370089;
+    display:block;
+    border-bottom:solid 1px #000;
+}
+ 
+.size ul li a:visited {
+    color: white;
+}
+ 
+.size ul li a:hover, ul li .current {
+    color: #000;
+    background-color: #FBE9AC;
+}
+
+.col-md-4{
+	text-align: center;
+
+}
+.men_top{
+    border-radius:5px;
+    display: none;
+    text-align: center;
+    float: right;
+    width: 50%;
+}
+.men_top ul {
+    margin: 0; 
+    padding: 0;
+    width:185px;
+    list-style-type: none;
+    
+}
+
+.men_top ul li a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 10.5px 11px;
+    background-color: #370089;
+    display:block;
+    border-bottom:solid 1px #000;
+}
+ 
+.men_top ul li a:visited {
+    color: white;
+}
+ 
+.men_top ul li a:hover, ul li .current {
+    color: #000;
+    background-color: #FBE9AC;
+}
+
+.col-md-4{
+	text-align: center;
+
+}
+
+
+
