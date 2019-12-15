@@ -183,6 +183,15 @@ section h1{
   font-size: 16px;
   border-radius: 20px;
 }
+#Order{
+	width: 30%;
+    background-color: #370089;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 15px 32px;
+
+}
 
 
 

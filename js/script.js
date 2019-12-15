@@ -3,7 +3,7 @@
      $("#Order").click(function () {
 $( "#pizza" ).toggle({
         duration: 3000,
-
+    
     });
 $( "#Sizes" ).toggle({
           duration: 3000,
@@ -54,6 +54,7 @@ $( ".men_ex" ).hide({
 $( ".men_top" ).toggle({
         duration: 3000,
     });
-  });  
-  });
+  }); 
+    }); 
+
   
