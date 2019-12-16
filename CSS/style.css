@@ -71,8 +71,29 @@ option{
 	height: 30px;
 	color: white;
 	font-weight: bolder;
+
 }
+
+.placeOrder {
+	padding-bottom: 100px;
+}
+
 .social-icons{
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 10px;
+}
+.#details{
+	padding-bottom: 20px;
+}
+
+footer{
+	font-weight: bolder;
+	color: black;
+	background-attachment: fixed;
+	margin: 0;
+	padding-top: 30px;
+  
+}
+#designed{
+	font-size: 13px;
 }
