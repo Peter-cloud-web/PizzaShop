@@ -2,20 +2,20 @@
 
 $(document).ready(function() {
     $("#placeOrder").click(function(event) { 
-        var pizzaSizePrice = function getSize() {
+        var Size = function getSize() {
         var pizzaSize = document.getElementById("size").value;
         return parseInt(pizzaSize);
         }; 
 
-            var pizzaCrustPrice = function getCrustType() {
+            var Crust = function getCrustType() {
             var pizzaCrust = document.getElementById("crust").value;
             return parseInt(pizzaCrust);
         };        
-            var pizzaToppingsPrice = function getToppings() {
-            var pizzaToppings = document.getElementById("toppings").value;
+            var Toppings = function getToppings() {
+            var toppingsPrice = document.getElementById("toppings").value;
             return parseInt(pizzaToppings);
         }; 
-            var pizzaQuantityPrice = function getQuantity() {
+            var Quantity= function getQuantity() {
             var pizzaQuantity = document.getElementById("quantity").value;
             return parseInt(pizzaQuantity);
         };        
@@ -27,9 +27,9 @@ $(document).ready(function() {
         }        
         var inputForUserOrder = new UserOrder(
             pizzaSizePrice(),
-            pizzaCrustPrice(),
-            pizzaToppingsPrice(),
-            pizzaQuantityPrice()
+            Crust(),
+            Toppings(),
+            Quantity()
         );        
         var totalPrice = (inputForUserOrder.newSize + inputForUserOrder.newCrust +inputForUserOrder.newToppings) *  inputForUserOrder.newQuantity;        
             alert("Your total price is Ksh :"  +totalPrice);
