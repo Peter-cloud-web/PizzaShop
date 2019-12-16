@@ -2,20 +2,20 @@
 
 $(document).ready(function() {
     $("#placeOrder").click(function(event) { 
-        var pizzaSizePrice = function getSize() {
+        var sizePrice = function getSize() {
         var pizzaSize = document.getElementById("size").value;
         return parseInt(pizzaSize);
         }; 
 
-            var pizzaCrustPrice = function getCrustType() {
+            var crustPrice = function getCrustType() {
             var pizzaCrust = document.getElementById("crust").value;
             return parseInt(pizzaCrust);
         };        
-            var pizzaToppingsPrice = function getToppings() {
+            var toppingsPrice = function getToppings() {
             var pizzaToppings = document.getElementById("toppings").value;
             return parseInt(pizzaToppings);
         }; 
-            var pizzaQuantityPrice = function getQuantity() {
+            var quantityPrice = function getQuantity() {
             var pizzaQuantity = document.getElementById("quantity").value;
             return parseInt(pizzaQuantity);
         };        
@@ -26,10 +26,10 @@ $(document).ready(function() {
             this.newQuantity = quantity;
         }        
         var inputForUserOrder = new UserOrder(
-            pizzaSizePrice(),
-            pizzaCrustPrice(),
-            pizzaToppingsPrice(),
-            pizzaQuantityPrice()
+            sizePrice(),
+            crustPrice(),
+            toppingsPrice(),
+            quantityPrice()
         );        
         var totalPrice = (inputForUserOrder.newSize + inputForUserOrder.newCrust +inputForUserOrder.newToppings) *  inputForUserOrder.newQuantity;        
             alert("Your total price is Ksh :"  +totalPrice);
@@ -45,7 +45,7 @@ $(document).ready(function() {
                     );
                     if (location !== "") {
                     alert(
-                        "Your order will be delivered here: " +
+                        "Your order will be delivered to: " +
                         location +
                         ". Thank you for orderin with the Pizza booth"
                     );                    break;
