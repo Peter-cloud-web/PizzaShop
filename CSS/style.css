@@ -58,4 +58,17 @@ section h1{
 	text-align: center;
 
 }
+option{
+	width: 200px;
+	font-weight: bolder;
+	padding-top: 50px;
+}
 
+#placeOrder{
+	background-color: rgb(77,9,128);
+	border-radius:30px;
+	width: 250px;
+	height: 30px;
+	color: white;
+	font-weight: bolder;
+}
