@@ -72,3 +72,7 @@ option{
 	color: white;
 	font-weight: bolder;
 }
+.social-icons{
+	text-align: center;
+	padding-top: 60px;
+}
