@@ -35,19 +35,19 @@ $(document).ready(function() {
             alert("Your total price is Ksh :"  +totalPrice);
 
             if (totalPrice > 0) {
-            alert("Your order is = ksh" + totalPrice);
+            alert("Your order of ksh :"+ totalPrice +" ,has been placed.Thank you");
             var delivery = confirm(
             "For home delivery, an additional fee of 150 will be inccured. Would you like to proceed?");
             if (delivery === true) {
                 for (;;) {
                     var location = prompt(
-                    "Select a location for delivery: "
+                    "Enter  a location for delivery: "
                     );
                     if (location !== "") {
                     alert(
                         "Your order will be delivered here: " +
                         location +
-                        ". Thank you! Order again soon"
+                        ". Thank you for orderin with the Pizza booth"
                     );                    break;
                     } else {
                     alert(
