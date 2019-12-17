@@ -1,4 +1,4 @@
-﻿# PIZZA SHOP
+﻿# PIZZA SHOP[![codebeat badge](https://codebeat.co/badges/09e6d0a4-5f39-4491-bf24-3997d0fed04d)](https://codebeat.co/projects/github-com-peter-cloud-web-pizzashop-master)
 
  This is an Online pizza ordering shop  landing page
  Developed and designed by [Peter  Gichia](https://github.com/Peter-cloud-web)
@@ -32,6 +32,8 @@ If you experience issues that are related to my site and are hindering you from 
 
 
 ## Link to live site
+
+
 
 
 
